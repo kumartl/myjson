@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyTestComponent } from './my-test/my-test.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MyTesttwoComponent } from './my-testtwo/my-testtwo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MyTestComponent,
+    MyTesttwoComponent,
   
   ],
   imports: [
